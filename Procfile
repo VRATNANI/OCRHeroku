@@ -1,1 +1,1 @@
-web: gunicorn app:OCR
+web: uwsgi uwsgi.ini
